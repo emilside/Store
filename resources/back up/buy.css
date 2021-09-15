@@ -31,15 +31,6 @@
   opacity: 0.7;
 }
 
-/* CSS Document */
-.productwrapper {
-  display: grid; /* creates a grid for ourc categories */
-  grid-template-columns: repeat(3, 1fr); /* places the grid items on three equal colums per row */
-  grid-gap: 30px; /* adds a 30px gap between grid items */
-  place-items: center; /* caligns grid items vertically and horizontally */
-  padding: 20px 0; /* add padding to the grid container */
-}
-
 /* Positions Of Cards */
 
 .p1 {

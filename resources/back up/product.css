@@ -1,28 +1,4 @@
 /* CSS Document */
-.categorywrapper {
-  display: grid; /* creates a grid for ourc categories */
-  grid-template-columns: repeat(3, 1fr); /* places the grid items on three equal colums per row */
-  grid-gap: 30px; /* adds a 30px gap between grid items */
-  place-items: center; /* caligns grid items vertically and horizontally */
-  padding: 20px 0; /* add padding to the grid container */
-}
-
-.category a {
-  font-size: 18px;
-  display: block;
-}
-
-.category img {
-  border: 2px solid black;
-  transition: all .6s ease;
-}
-
-.category img:hover {
-  opacity: 0.6;
-  border-color: white;
-}
-
- /* all this css below can go :) */
 
 /* Image Position and Hover Ability */
 .category1 {

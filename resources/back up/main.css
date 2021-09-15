@@ -1,0 +1,57 @@
+/* CSS Document */
+
+/* Logo And Title On Page */
+.header img {
+  float: left;
+  width: 100px;
+  height: 100px;
+  background: #555;
+  border-radius: 50%;
+  color: ;
+}
+
+.header h1 {
+  position: relative;
+  font-size: 50px;
+  font-family: fantasy;
+  top: 18px;
+  left: 10px;
+}
+
+
+
+body {
+    background-color: purple;
+    opacity: 0.8;
+}
+
+
+
+/* Navigation Bar */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+.active {
+  background-color: #04AA6D;
+}
